@@ -1,1 +1,0 @@
-# residentevil2wiki
