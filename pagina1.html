@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personaggi - RE2 Remastered</title>
+  <link rel="stylesheet" href="stile.css" />
+  <link rel="icon" href="immagini/favicon.ico" />
+</head>
+<body>
+  <div id="site-loader" aria-hidden="false">
+    <div class="logo"></div>
+    <div class="loader-text">Caricamento...</div>
+  </div>
+  <div id="read-progress" aria-hidden="true"></div>
+  <header class="header-wrap">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="logo-sm" aria-hidden="true"></div>
+        <h1>Personaggi</h1>
+      </div>
+      <div class="header-controls">
+        <div class="search-wrap">
+          <input type="search" placeholder="Cerca..." aria-label="Cerca nel sito" />
+        </div>
+        <button class="btn" id="audioToggle" aria-pressed="false">🔈</button>
+        <button class="btn" onclick="document.body.classList.toggle('comoda')">Modalità Comoda</button>
+        <nav class="desktop" aria-label="Menu principale">
+          <a href="index.html">Home</a>
+          <a href="pagina1.html">Personaggi</a>
+          <a href="pagina2.html">Livelli</a>
+          <a href="pagina3.html">Zombie</a>
+          <a href="pagina5.html">Boss</a>
+          <a href="pagina4.html">Armi</a>
+        </nav>
+        <span class="hamburger menu-toggle" aria-hidden="true">&#9776;</span>
+      </div>
+    </div>
+    <nav class="mobile" aria-hidden="true">
+      <a href="index.html">Home</a>
+      <a href="pagina1.html">Personaggi</a>
+      <a href="pagina2.html">Livelli</a>
+      <a href="pagina3.html">Zombie</a>
+      <a href="pagina5.html">Boss</a>
+      <a href="pagina4.html">Armi</a>
+    </nav>
+  </header>
+  <main class="container" role="main">
+    <section class="scheda">
+      <div class="img"><img src="immagini/leonscottkennedy.png" alt="Leon S. Kennedy" loading="lazy"></div>
+      <div class="text">
+        <h2>Leon S. Kennedy</h2>
+        <p>Leon Scott Kennedy è il protagonista maschile di Resident Evil 2. Giovane recluta della polizia al suo primo giorno di lavoro, Leon si reca a Raccoon City ignaro dell'orrore che lo attende. Determinato e idealista, Leon è dotato di un forte senso del dovere e di proteggere gli innocenti. La sua storia si intreccia con quella di Claire, Sherry Birkin e Ada Wong, con la quale instaura un complesso rapporto di fiducia e sospetto. La sua esperienza a Raccoon City lo segnerà profondamente e lo porterà a una carriera dedicata alla lotta contro il bioterrorismo.</p>
+      </div>
+    </section>
+    <section class="scheda">
+      <div class="img"><img src="immagini/claire.png" alt="Claire Redfield" loading="lazy"></div>
+      <div class="text">
+        <h2>Claire Redfield</h2>
+        <p>Claire Redfield è la sorella del famoso Chris Redfield, membro degli S.T.A.R.S. Studentessa universitaria, Claire arriva a Raccoon City alla ricerca di suo fratello, ignara del fatto che sia partito per l'Europa. Testarda, compassionevole e con un forte senso di giustizia, Claire dimostra incredibile coraggio nel difendere i più deboli, soprattutto Sherry Birkin. La sua motocicletta e il suo spirito indipendente la rendono una delle eroine più iconiche della serie Resident Evil.</p>
+      </div>
+    </section>
+    <section class="scheda">
+      <div class="img"><img src="immagini/adawong.png" alt="Ada Wong" loading="lazy"></div>
+      <div class="text">
+        <h2>Ada Wong</h2>
+        <p>Ada Wong è uno dei personaggi più enigmatici e affascinanti della serie. Durante gli eventi di RE2, si presenta come un'agente dell'FBI in missione, ma in realtà è una spia professionista con un'agenda segreta. Estremamente abile nel combattimento e nelle indagini, Ada ha una personalità fredda e calcolatrice, ma mostra anche un lato umano nel suo rapporto con Leon. La sua ambiguità morale e le sue motivazioni oscure la rendono una figura affascinante che continuerà a comparire in molti capitoli successivi della serie.</p>
+      </div>
+    </section>
+    <section class="scheda">
+      <div class="img"><img src="immagini/sherry.png" alt="Sherry Birkin" loading="lazy"></div>
+      <div class="text">
+        <h2>Sherry Birkin</h2>
+        <p>Sherry Birkin è una bambina di 12 anni, figlia degli scienziati William e Annette Birkin che hanno lavorato per la Umbrella Corporation. Diventa orfana quando suo padre si trasforma in un mostro mutante e sua madre viene uccisa. Sherry è portatrice del virus G, eredità dei suoi genitori, che la rende immune a molte malattie ma anche bersaglio della Umbrella. Claire e Leon si occupano di lei, proteggendola dagli orrori di Raccoon City. La sua innocenza e vulnerabilità aggiungono una dimensione emotiva fondamentale alla storia.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Guida RE2R - Non ufficiale</p>
+  </footer>
+  <button id="toTop" aria-label="Torna all'inizio">↑</button>
+  <script src="script.js" defer></script>
+</body>
+</html>

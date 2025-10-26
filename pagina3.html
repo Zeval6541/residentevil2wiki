@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Zombie - RE2 Remastered</title>
+<link rel="stylesheet" href="stile.css" />
+<link rel="icon" href="immagini/favicon.ico" />
+</head>
+<body>
+<div id="site-loader" aria-hidden="false"><div class="logo"></div><div class="loader-text">Caricamento...</div></div>
+<div id="read-progress" aria-hidden="true"></div>
+<header class="header-wrap">
+  <div class="header-inner">
+    <div class="brand"><div class="logo-sm" aria-hidden="true"></div><h1>Zombie</h1></div>
+    <div class="header-controls">
+      <div class="search-wrap"><input type="search" placeholder="Cerca..." aria-label="Cerca nel sito" /></div>
+      <button class="btn" id="audioToggle" aria-pressed="false">🔈</button>
+      <button class="btn" onclick="document.body.classList.toggle('comoda')" aria-label="Attiva modalità comoda">Modalità Comoda</button>
+      <nav class="desktop" aria-label="Menu principale"><a href="index.html">Home</a><a href="pagina1.html">Personaggi</a><a href="pagina2.html">Livelli</a><a href="pagina3.html">Zombie</a><a href="pagina5.html">Boss</a><a href="pagina4.html">Armi</a></nav>
+      <button class="hamburger menu-toggle" aria-label="Apri menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+  <nav class="mobile" aria-label="Menu principale" aria-hidden="true"><a href="index.html">Home</a><a href="pagina1.html">Personaggi</a><a href="pagina2.html">Livelli</a><a href="pagina3.html">Zombie</a><a href="pagina5.html">Boss</a><a href="pagina4.html">Armi</a></nav>
+</header>
+<main class="container" role="main">
+<section class="scheda"><div class="img"><img src="immagini/zombie.png" alt="Zombie infetto" loading="lazy"></div><div class="text"><h2>Zombie Comuni</h2><p>Gli zombie sono l'antagonista principale del gioco. Una volta colpiti dal virus T, le persone si trasformano in creature aggressive e lente. Nonostante la loro lentezza, sono incredibilmente resistenti e richiedono diversi colpi alla testa per essere abbattuti definitivamente. La tecnica migliore è mirargli alla testa: un colpo ben piazzato può ferirli gravemente o ucciderli sul colpo. Evita di sprecare munizioni sparando ai loro corpi. Se stai correndo basso su risorse, considera di aggirarli o colpirli con un coltello quando sono a terra per risparmiare munizioni.</p></div></section>
+<section class="scheda"><div class="img"><img src="immagini/licker.png" alt="Licker mutante" loading="lazy"></div><div class="text"><h2>Licker</h2><p>I Licker sono creature estremamente pericolose nate da zombie che si sono nutrite eccessivamente. Sono privi di pelle, hanno artigli affilati e una lingua retrattile devastante. La loro caratteristica più distintiva è la cecità totale, ma compensano con un udito incredibilmente sviluppato. La strategia migliore è muoversi lentamente quando sono presenti: camminare invece di correre evita di attirare la loro attenzione. Se devi sparare, usalo come ultima risorsa e preparati al combattimento. Mirano principalmente alle gambe per immobilizzarli.</p></div></section>
+<section class="scheda"><div class="img"><img src="immagini/cerberus.png" alt="Cerberus" loading="lazy"></div><div class="text"><h2>Cerberus</h2><p>I Cerberus sono cani infetti dal virus T che pattugliano alcune aree del gioco. Sono molto più rapidi e agili degli zombie umani, capaci di attacchi veloci e devastanti. La loro intelligenza di gruppo li rende ancora più pericolosi: coordinano attacchi multipli per sopraffare il giocatore. Evita di inoltrarti in aree aperte dove potrebbero essere presenti. Un singolo cane è gestibile, ma in gruppo rappresentano una minaccia mortale. Usa le granate esplosive per disperderli temporaneamente o creare distanza.</p></div></section>
+<section class="scheda"><div class="img"><img src="immagini/gadult.png" alt="G-Adult" loading="lazy"></div><div class="text"><h2>G-Adult</h2><p>I G-Adult sono mostri acquatici mutanti che infestano le fogne di Raccoon City. Queste creature sono estremamente aggressive e possono emergere rapidamente dall'acqua putrida per attaccare. Hanno grosse appendici che usano come artigli e una resistenza notevole. La zona delle fogne è particolarmente pericolosa a causa della loro presenza. Muoviti con cautela e ascolta attentamente i rumori nell'acqua. Spesso possono essere evitati muovendosi rapidamente attraverso le zattere, ma se ti trovi costretto a combattere, colpiscili ripetutamente per stordirli e creare opportunità di fuga.</p></div></section>
+</main>
+<footer><p>&copy; 2025 Guida RE2R - Non ufficiale</p></footer>
+<button id="toTop" aria-label="Torna all'inizio">↑</button>
+<script src="script.js" defer></script>
+</body>
+</html>

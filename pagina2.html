@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Livelli - RE2 Remastered</title>
+<link rel="stylesheet" href="stile.css" />
+<link rel="icon" href="immagini/favicon.ico" />
+</head>
+<body>
+<div id="site-loader" aria-hidden="false"><div class="logo"></div><div class="loader-text">Caricamento...</div></div>
+<div id="read-progress" aria-hidden="true"></div>
+<header class="header-wrap">
+  <div class="header-inner">
+    <div class="brand"><div class="logo-sm" aria-hidden="true"></div><h1>Livelli</h1></div>
+    <div class="header-controls">
+      <div class="search-wrap"><input type="search" placeholder="Cerca..." aria-label="Cerca nel sito" /></div>
+      <button class="btn" id="audioToggle" aria-pressed="false">🔈</button>
+      <button class="btn" onclick="document.body.classList.toggle('comoda')" aria-label="Attiva modalità comoda">Modalità Comoda</button>
+      <nav class="desktop" aria-label="Menu principale"><a href="index.html">Home</a><a href="pagina1.html">Personaggi</a><a href="pagina2.html">Livelli</a><a href="pagina3.html">Zombie</a><a href="pagina5.html">Boss</a><a href="pagina4.html">Armi</a></nav>
+      <button class="hamburger menu-toggle" aria-label="Apri menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+  <nav class="mobile" aria-label="Menu principale" aria-hidden="true"><a href="index.html">Home</a><a href="pagina1.html">Personaggi</a><a href="pagina2.html">Livelli</a><a href="pagina3.html">Zombie</a><a href="pagina5.html">Boss</a><a href="pagina4.html">Armi</a></nav>
+</header>
+<main class="container" role="main">
+<section class="scheda"><div class="img"><img src="immagini/stazionepolizia.png" alt="Stazione di Polizia" loading="lazy"></div><div class="text"><h2>Stazione di Polizia</h2><p>La Stazione di Polizia di Raccoon City è il primo grande ambiente esplorabile del gioco. Questo edificio storico, un tempo edificio pubblico, è ora un labirinto misterioso pieno di enigmi da risolvere. Qui troverai l'ufficio di Marvin Branagh, il collega di Leon gravemente ferito, e numerose porte chiuse che richiedono chiavi specifiche. La biblioteca custodisce segreti importanti, mentre l'ufficio del capo contiene informazioni cruciali sulla Umbrella Corporation.</p></div></section>
+<section class="scheda"><div class="img"><img src="immagini/fogne.png" alt="Fogne" loading="lazy"></div><div class="text"><h2>Fogne</h2><p>Le fogne di Raccoon City rappresentano uno degli ambienti più claustrofobici e pericolosi del gioco. Questa rete sotterranea è infestata da creature mutate come i G-Adult, mostri acquatici che emergono dalle acque nere. L'area include un complesso sistema di zattere che permettono di attraversare le parti allagate. Qui Leon e Claire troveranno la chiave per accedere al Laboratorio Umbrella, l'ultima tappa del loro incubo.</p></div></section>
+<section class="scheda"><div class="img"><img src="immagini/umbrellalab.png" alt="Laboratorio Umbrella" loading="lazy"></div><div class="text"><h2>Laboratorio Umbrella</h2><p>Il Laboratorio Umbrella è il cuore oscuro della vicenda, la vera sorgente del male. Questo complesso segreto nascosto sotto Raccoon City è dove il virus T è stato sviluppato e testato su cavie umane. Il laboratorio è suddiviso in sezioni specializzate: la zona incenerimento, la sala di controllo, e l'area di contenimento dove si trova il Tyrant principale. Qui i protagonisti scopriranno la verità sulle atrocità commesse dalla Umbrella Corporation e dovranno sopravvivere ai suoi esperimenti fuggiti.</p></div></section>
+</main>
+<footer><p>&copy; 2025 Guida RE2R - Non ufficiale</p></footer>
+<button id="toTop" aria-label="Torna all'inizio">↑</button>
+<script src="script.js" defer></script>
+</body>
+</html>

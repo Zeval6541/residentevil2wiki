@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Armi e Oggetti - RE2 Remastered</title>
+<link rel="stylesheet" href="stile.css" />
+<link rel="icon" href="immagini/favicon.ico" />
+</head>
+<body>
+<div id="site-loader" aria-hidden="false"><div class="logo"></div><div class="loader-text">Caricamento...</div></div>
+<div id="read-progress" aria-hidden="true"></div>
+<header class="header-wrap">
+  <div class="header-inner">
+    <div class="brand"><div class="logo-sm" aria-hidden="true"></div><h1>Armi e Oggetti</h1></div>
+    <div class="header-controls">
+      <div class="search-wrap"><input type="search" placeholder="Cerca..." aria-label="Cerca nel sito" /></div>
+      <button class="btn" id="audioToggle" aria-pressed="false">🔈</button>
+      <button class="btn" onclick="document.body.classList.toggle('comoda')" aria-label="Attiva modalità comoda">Modalità Comoda</button>
+      <nav class="desktop" aria-label="Menu principale"><a href="index.html">Home</a><a href="pagina1.html">Personaggi</a><a href="pagina2.html">Livelli</a><a href="pagina3.html">Zombie</a><a href="pagina5.html">Boss</a><a href="pagina4.html">Armi</a></nav>
+      <button class="hamburger menu-toggle" aria-label="Apri menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+  <nav class="mobile" aria-label="Menu principale" aria-hidden="true"><a href="index.html">Home</a><a href="pagina1.html">Personaggi</a><a href="pagina2.html">Livelli</a><a href="pagina3.html">Zombie</a><a href="pagina5.html">Boss</a><a href="pagina4.html">Armi</a></nav>
+</header>
+<main class="container" role="main">
+<section><h2>Armi</h2><ul><li><strong>Matilda:</strong> Pistola semiautomatica standard di Leon. Affidabile e precisa, ideale per gli zombie comuni. Mirale sempre alla testa per il massimo danno.</li><li><strong>W-870:</strong> Fucile a pompa potente con danno devastante a corta distanza. Perfetto per zombie in gruppo o per creare spazio. Usa con moderazione a causa delle munizioni limitate.</li><li><strong>Lanciafiamme:</strong> Arma efficace contro zombie ivy.</li><li><strong>SLS 60:</strong> Pistola con 5 round di calibro 9mm.</li></ul></section>
+<section><h2>Oggetti Curativi</h2><ul><li><strong>Erba Verde:</strong> Cura base, un singolo oggetto ripristina una piccola quantità di salute. Essenziale per la sopravvivenza.</li><li><strong>Erba Verde + Rossa:</strong> Combinando l'erba verde con quella rossa si ottiene un oggetto curativo più potente che ripristina più salute.</li><li><strong>Erba Verde + Blu:</strong> Antidoto che cura l'avvelenamento causato da alcuni nemici.</li><li><strong>Erba Verde + Rossa + Blu:</strong> La combinazione più potente, cura completamente la salute e immunizza dall'avvelenamento.</li><li><strong>Spray Medico:</strong> Cura completa istantanea. Raro e prezioso, conservalo per emergenze critiche.</li></ul></section>
+<section class="scheda"><div class="img"><img src="immagini/matilda.png" alt="Matilda - Pistola di Leon" loading="lazy"></div><div class="img"><img src="immagini/spray.png" alt="Spray Medico" loading="lazy"></div></section>
+</main>
+<footer><p>&copy; 2025 Guida RE2R - Non ufficiale</p></footer>
+<button id="toTop" aria-label="Torna all'inizio">↑</button>
+<script src="script.js" defer></script>
+</body>
+</html>
